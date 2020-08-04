@@ -7,7 +7,7 @@
     "clean": "rimraf build",
     "compile": "tsc --build tsconfig.json --pretty",
     "build-final": "cpy package.json build && cd build/ && npm install --production",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "test": "nyc --reporter=text mocha -r ts-node/register test/**/*.spec.ts",
     "lint-check": "gts check",
     "lint-clean": "gts clean",
     "lint-fix": "gts fix",
@@ -37,6 +37,7 @@
     "mocha": "^8.1.1",
     "rimraf": "^3.0.0",
     "ts-node": "^7.0.1",
-    "typescript": "^3.0.2"
+    "typescript": "^3.0.2",
+    "nyc": "^14.1.1"
   }
 }
