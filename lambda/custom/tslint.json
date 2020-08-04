@@ -1,12 +1,12 @@
 {
-    "extends": "gts/tslint.json",
-    "linterOptions": {
-      "exclude": [
-        "**/*.json"
-      ]
-    },
-    "rules": {
-      "variable-name": false,
-      "interface-name": false
-    }
+  "extends": "gts/tslint.json",
+  "linterOptions": {
+    "exclude": ["**/*.json"]
+  },
+  "rules": {
+    "variable-name": false,
+    "interface-name": false,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single"]
   }
+}

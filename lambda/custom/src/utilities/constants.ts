@@ -2,7 +2,7 @@ export enum RequestTypes {
   Launch = 'LaunchRequest',
   Intent = 'IntentRequest',
   SessionEnded = 'SessionEndedRequest',
-  SystemExceptionEncountered = 'System.ExceptionEncountered',
+  SystemExceptionEncountered = 'System.ExceptionEncountered'
 }
 
 export enum IntentTypes {
@@ -10,11 +10,11 @@ export enum IntentTypes {
   Stop = 'AMAZON.StopIntent',
   Cancel = 'AMAZON.CancelIntent',
   Fallback = 'AMAZON.FallbackIntent',
-  HelloWorld = 'HelloWorldIntent',
+  HelloWorld = 'HelloWorldIntent'
 }
 
 export enum LocaleTypes {
-  esES = 'es-ES',
+  esES = 'es-ES'
 }
 
 export enum Strings {
@@ -25,5 +25,5 @@ export enum Strings {
   HELP_MSG = 'HELP_MSG',
   ERROR_MSG = 'ERROR_MSG',
   REFLECTOR_MSG = 'REFLECTOR_MSG',
-  FALLBACK_MSG = 'FALLBACK_MSG',
+  FALLBACK_MSG = 'FALLBACK_MSG'
 }

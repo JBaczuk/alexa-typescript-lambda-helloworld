@@ -1,5 +1,5 @@
-import { HandlerInput } from 'ask-sdk-core';
-import { RequestTypes } from './constants';
+import { HandlerInput } from 'ask-sdk-core'
+import { RequestTypes } from './constants'
 
 /**
  * Checks if the request matches any of the given intents.
@@ -14,11 +14,11 @@ export function IsIntent(
   if (handlerInput.requestEnvelope.request.type === RequestTypes.Intent) {
     for (let i = 0; i < intents.length; i++) {
       if (handlerInput.requestEnvelope.request.intent.name === intents[i]) {
-        return true;
+        return true
       }
     }
   }
-  return false;
+  return false
 }
 
 /**
@@ -33,8 +33,8 @@ export function IsType(
 ): boolean {
   for (let i = 0; i < types.length; i++) {
     if (handlerInput.requestEnvelope.request.type === types[i]) {
-      return true;
+      return true
     }
   }
-  return false;
+  return false
 }

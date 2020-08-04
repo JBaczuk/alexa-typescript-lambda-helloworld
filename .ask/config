@@ -1,7 +1,7 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.945814d5-9b30-4ee7-ade6-f5ef017a1c17",
+      "skill_id": "",
       "was_cloned": false,
       "merge": {},
       "resources": {
@@ -18,13 +18,13 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:141568529918:function:ask-custom-alexa-typescript-lambda-helloworld-default",
+            "arn": "arn:aws:lambda:xxx",
             "awsRegion": "us-east-1",
             "codeUri": "lambda/custom/build",
-            "functionName": "ask-custom-alexa-typescript-lambda-helloworld-default",
+            "functionName": "xxx",
             "handler": "index.handler",
             "revisionId": "3d9f35a4-5017-4c49-b550-3aec56dd2b52",
-            "runtime": "nodejs10.x"
+            "runtime": "nodejs12.x"
           }
         ]
       }

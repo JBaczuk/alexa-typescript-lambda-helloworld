@@ -1,7 +1,7 @@
-import { RequestInterceptor } from 'ask-sdk-core';
-import * as sprintf from 'i18next-sprintf-postprocessor';
-import i18n from 'i18next';
-import { strings } from '../utilities/strings';
+import { RequestInterceptor } from 'ask-sdk-core'
+import * as sprintf from 'i18next-sprintf-postprocessor'
+import i18n from 'i18next'
+import { strings } from '../utilities/strings'
 
 /**
  * Adds translation functions to the RequestAttributes.
@@ -13,7 +13,7 @@ export const LocalizationRequestInterceptor: RequestInterceptor = {
       overloadTranslationOptionHandler:
         sprintf.overloadTranslationOptionHandler,
       resources: strings,
-      returnObjects: true,
-    });
-  },
-};
+      returnObjects: true
+    })
+  }
+}

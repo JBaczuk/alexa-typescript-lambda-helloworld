@@ -3,14 +3,10 @@
     "publishingInformation": {
       "locales": {
         "es-ES": {
-          "name": "alexa-typescript-lambda-helloworld",
+          "name": "carrier-alexacustomskill",
           "summary": "Sample Short Description",
           "description": "Sample Full Description",
-          "examplePhrases": [
-            "Alexa abre hola mundo",
-            "hola",
-            "ayuda"
-          ],
+          "examplePhrases": ["Alexa abre hola mundo", "hola", "ayuda"],
           "keywords": []
         }
       },
@@ -23,7 +19,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom/build",
-          "uri": "ask-custom-alexa-typescript-lambda-helloworld-default"
+          "uri": "xxx"
         }
       }
     },

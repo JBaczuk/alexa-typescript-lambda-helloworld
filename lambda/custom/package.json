@@ -1,7 +1,7 @@
 {
-  "name": "alexa-typescript-lambda-helloworld",
+  "name": "carrier-alexacustomskill",
   "version": "1.0.0",
-  "description": "Alexa HelloWorld example with TypeScript",
+  "description": "Custom Alexa Skill for Carrier",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf build",
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "https://github.com/xavidop/alexa-typescript-lambda-helloworld.git"
   },
-  "author": "Xavier Portilla Edo",
-  "license": "Apache-2.0",
+  "author": "Jordan Baczuk",
+  "license": "UNLICENSED",
   "dependencies": {
     "ask-sdk-core": "^2.7.0",
     "ask-sdk-model": "^1.19.0",
