@@ -14,7 +14,7 @@ export enum IntentTypes {
 }
 
 export enum LocaleTypes {
-  esES = 'es-ES'
+  enUS = 'en-US'
 }
 
 export enum Strings {

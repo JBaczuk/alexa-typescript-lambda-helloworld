@@ -12,17 +12,18 @@ interface IStrings {
 }
 
 export const strings = {
-  [LocaleTypes.esES]: {
+  [LocaleTypes.enUS]: {
     translation: {
-      SKILL_NAME: 'Hello world',
-      WELCOME_MSG: 'Bienvenido, puedes decir Hola o Ayuda. Cual prefieres?',
-      HELLO_MSG: 'Hola Mundo!',
-      HELP_MSG: 'Puedes decirme hola. Cómo te puedo ayudar?',
-      GOODBYE_MSG: 'Hasta luego!',
-      REFLECTOR_MSG: 'Acabas de activar {{intentName}}',
-      FALLBACK_MSG:
-        'Lo siento, no se nada sobre eso. Por favor inténtalo otra vez.',
-      ERROR_MSG: 'Lo siento, ha habido un error. Por favor inténtalo otra vez.'
+      SKILL_NAME: 'Hello World',
+      WELCOME_MSG:
+        'Welcome to Hello World! You can say help for a list of commands.',
+      HELLO_MSG: 'Hello World!',
+      HELP_MSG: 'Here is a list of commands you can say.',
+      GOODBYE_MSG: 'Goodbye!',
+      REFLECTOR_MSG: "You haven't implemented {{intentName}}",
+      FALLBACK_MSG: "I'm sorry, I didn't understand, please try again.",
+      ERROR_MSG:
+        'Sorry, there was an error processing your command, please try again.'
     } as IStrings
   }
 }
